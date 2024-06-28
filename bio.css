@@ -1,0 +1,171 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    font-size: 35px;
+    letter-spacing: 8px;
+    color: black;
+}
+
+.Inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: white;
+}
+
+
+.Inicio button {
+    background-color: #3498db; /* Cambia el color de fondo a tu preferencia */
+    color: white; /* Cambia el color del texto a tu preferencia */
+    padding: 10px 20px; /* Ajusta el relleno según sea necesario */
+    font-size: 16px; /* Ajusta el tamaño de fuente según sea necesario */
+    border: none; /* Elimina el borde del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.Inicio button:hover {
+    background-color: #2980b9; 
+}
+
+
+.logo {
+    color: black;
+    font-size: 30px;
+    margin: 0;
+}
+nav {
+  position: sticky;
+  padding: 1rem 5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+  border-bottom: 3px solid black;
+  width: 100vw;
+}
+
+body{
+    background-color: white;
+    /* img size is 50x50 */
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
+    -webkit-animation: bg-scrolling-reverse .92s infinite;
+    /* Safari 4+ */
+    -moz-animation: bg-scrolling-reverse .92s infinite;
+    /* Fx 5+ */
+    -o-animation: bg-scrolling-reverse .92s infinite;
+    /* Opera 12+ */
+    animation: bg-scrolling-reverse .92s infinite;
+    /* IE 10+ */
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+.nike{
+    width: 5%;
+    margin-top: 15px;
+}
+
+
+h1{
+    letter-spacing: 8px;
+    margin: 30px; 
+    font-size: 25px;
+    font-family: sans-serif;
+}
+ 
+h3{
+    padding: 10px;
+}
+
+
+/*Contenedor*/
+
+
+
+.BiograParra{
+    width: 100%;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.cuadro {
+    color: black;
+    letter-spacing: 5px;
+    float: none;
+    text-align: center;
+}
+
+
+.cuadro2 {
+    padding: 20px;
+    margin: 30px;
+    letter-spacing: 5px;
+    float: none;
+    text-align: center;
+    color: black;
+    
+}
+
+
+
+
+
+/*Animaciones del Fondo*/
+
+@-webkit-keyframes bg-scrolling-reverse {
+    100% {
+      background-position: 50px 50px;
+    }
+  }
+  @-moz-keyframes bg-scrolling-reverse {
+    100% {
+      background-position: 50px 50px;
+    }
+  }
+  @-o-keyframes bg-scrolling-reverse {
+    100% {
+      background-position: 50px 50px;
+    }
+  }
+  @keyframes bg-scrolling-reverse {
+    100% {
+      background-position: 50px 50px;
+    }
+  }
+  @-webkit-keyframes bg-scrolling {
+    0% {
+      background-position: 50px 50px;
+    }
+  }
+  @-moz-keyframes bg-scrolling {
+    0% {
+      background-position: 50px 50px;
+    }
+  }
+  @-o-keyframes bg-scrolling {
+    0% {
+      background-position: 50px 50px;
+    }
+  }
+  @keyframes bg-scrolling {
+    0% {
+      background-position: 50px 50px;
+    }
+  }

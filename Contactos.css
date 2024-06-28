@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open sans", sans-serif;
+    outline: none;
+}
+
+button {
+    font-weight: 600;
+    font-family: "Open sans", sans-serif;
+}
+
+nav {
+    position: sticky;
+    padding: 1rem 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    border-bottom: 3px solid black;
+    width: 100vw;
+}
+
+nav h2 {
+    color: black;
+    font-size: calc(20px + 1vmax);
+}
+
+body {
+    background: white;
+    color: white;
+    overflow-x: hidden;
+}
+
+nav div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav div button {
+    background-color: #2980b9;
+    color: white;
+    padding: 10px;
+    font-size: calc(10px + 1vmin);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav div button.special-btn {
+    background-color: #3AADED;
+    color: white;
+}
+
+.box-1 {
+    margin: 1rem auto;
+    width: clamp(300px, 80vw, 80vw);
+    border-radius: 10px;
+    padding: 20px 3%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box-1 img {
+    width: clamp(300px, 30vw, 30vw);
+}
+
+.box-1 div {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: clamp(300px, 40vw, 40vw);
+    align-items: flex-start;
+}
+
+.box-1 div h3 {
+    font-size: calc(2vmax + 10px);
+    margin-bottom: 10px;
+}
+
+.box-1 div button {
+    background-color: #3AADED;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.box-1 h4 {
+    font-size: calc(1vmax + 15px);
+    margin-bottom: 15px;
+    color: black;
+}
+
+.box-1 input {
+    width: 80%;
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+}
